@@ -1,0 +1,47 @@
+.asideBar{
+    width: 50%;
+    height: 80%;
+    /*border: 1px solid red;*/
+}
+
+
+.userDouble{
+    width: 100%;
+    height: 15%;
+    /*border: 1px solid red;*/
+    padding-left: 15px;
+}
+
+.asideItems{
+    width: 100%;
+    height: 50px;
+    /*border: 1px solid red;*/
+    display: flex;
+    border-bottom-left-radius: 20px;
+}
+
+.asideItems:hover{
+    background-color: #00193f;
+}
+
+.asideItems a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /*border: 1px solid red;*/
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+
+.asideItems a img{
+    width: 30px;
+    height: 30px;
+}
+
+.asideItems a p{
+    color: white;
+    font-family: Calibri;
+}

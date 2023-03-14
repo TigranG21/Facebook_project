@@ -1,0 +1,127 @@
+.header{
+    width: 100%;
+    height: 9vh;
+    background-color: #4167B3;
+    /*border: 1px solid red; */
+    display: flex;
+}
+
+.headLogoBox{
+    width: 15%;
+    height: 100%;
+    border: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headLogoBox img {
+    height: 38px;
+}
+
+.searchBox{
+    width: 35%;
+    height: 100%;
+    border: inherit;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.searchBox input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.searchBox button{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.searchBox img{
+    width: 20px;
+    height: 20px;
+}
+
+.headPersonBox{
+    width:170px;
+    height: 100%;
+    /*border: 1px solid red;*/
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.headPersonBox a{
+    display: flex;
+    align-items: center;
+    /*border: 1px solid red;*/
+    height: 60px;
+    text-decoration: none;
+}
+
+.userImg{
+    width: 45px;
+    height: 45px;
+    /*border: 1px solid red;*/
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.userImg img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.userName{
+    width: 90px;
+    height: 50px;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userName p{
+    color: #fff;
+    font-family: Arial;
+}
+
+.headerMenu{
+    width: 30%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+}
+
+.headerMenu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    /*border: 1px solid red;*/
+
+}
+
+.headerMenu ul li{
+    color: #fff;
+    font-family: Arial;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.headerMenu img{
+    width: 25px;
+}

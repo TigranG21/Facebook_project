@@ -1,0 +1,61 @@
+.MassagesCount{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.dialogsPersons{
+    width: 20%;
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.dialog{
+    width: 100%;
+    height: 30px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.massagesBox{
+    width: 80%;
+    height: 100%;
+    border: 1px solid green;
+}
+
+.meetBox{
+    width: 100%;
+    height: 85%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sendMassagesBox{
+    width: 100%;
+    height: 15%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sendMassagesBox button{
+    width: 100px;
+    height: 40px;
+}
+
+.sendMassagesBox > textarea {
+    resize: none;
+}

@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  width: 100%;
+  /*border: 1px solid red;*/
+  display: flex;
+}
+
+.aside{
+  width: 25%;
+  height: 91vh;
+  /*border: 1px solid red;*/
+  background-color: #00427C;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+
+.feed{
+  width: 55%;
+  height: 91vh;
+  /*border: 1px solid red;*/
+  border-right: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.friends{
+  width: 20%;
+  height: 91vh;
+  /*border: 1px solid red;*/
+}
